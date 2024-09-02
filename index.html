@@ -112,11 +112,50 @@
             <li>[鲸书] Steven Muchnick. Advanced Compiler Design and Implementation. Academic Press, 1997. (高级编译器设计与实现，影印本-2003, 译本-2005，机械工业出版社）</li>
         </ul>
 
+        <img src="./images/errata.jpg" alt="书籍勘误">
+
         <h2>相关资源链接</h2>
         <ul>
+            <li><strong>Clang/LLVM</strong>
+                <ul>
+                    <li>LLVM Developers' Meeting: <a href="http://llvm.org/devmtg/2019-10/">2019</a>, <a href="https://llvm.org/devmtg/2020-09/">2020</a></li>
+                    <li><a href="https://llvm.comptechs.cn/">https://llvm.comptechs.cn/</a></li>
+                    <li>代价模型：<a href="https://github.com/llvm/llvm-project/blob/release/9.x/llvm/include/llvm/CodeGen/CostTable.h">CostTable.h</a>，<a href="https://github.com/llvm/llvm-project/search?q=CostTblEntry&unscoped_q=CostTblEntry">对 CostTblEntry 的引用</a></li>
+                    <li>知乎专栏文章：<a href="https://zhuanlan.zhihu.com/p/122522485">LLVM Pass入门导引</a>、<a href="https://zhuanlan.zhihu.com/p/52724656">LLVM后端流程简介</a>、 <a href="https://zhuanlan.zhihu.com/p/55807207">LLVM中的指令映射</a>、 LLVM寄存器分配(<a href="https://zhuanlan.zhihu.com/p/55287942">一</a>、<a href="https://zhuanlan.zhihu.com/p/56409890">二</a>)、 <a href="https://zhuanlan.zhihu.com/p/78570552">[优化]Occupancy及其在LLVM AMDGPU后端中的实现</a></li>
+                </ul>
+            </li>
+            <li><strong>Java 虚拟机</strong>
+                <ul>
+                    <li><a href="http://harmony.apache.org/">Apache Harmony</a></li>
+                    <li><a href="http://harmony.apache.org/subcomponents/drlvm/JIT.html">Jitrino Just-in-time Compiler</a>(<a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=118166207">Jitrino即时编译器</a>), <a href="http://harmony.apache.org/subcomponents/drlvm/EM.html">Execution Manager</a> (<a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=118166472">执行管理器</a>), <a href="http://harmony.apache.org/subcomponents/drlvm/TM.html">Thread Manager</a>(<a href="https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=118166473">线程管理</a>)
+                    </li>
+                </ul>
+            </li>
+            <li><strong>文法、编译器、问答示例</strong>
+                <ul>
+                    <li>YACC: <a href="https://github.com/dotnet/coreclr/blob/master/src/ilasm/asmparse.y">asmparse.y</a> in <a href="https://github.com/dotnet/coreclr/tree/master/src/ilasm">ilasm</a> of <a href="https://github.com/dotnet/coreclr">.NET Core</a></li>
+                    <li>ANTLR: <a href="https://github.com/antlr/grammars-v4/blob/master/c/C.g4">C.g4</a></li>
+                    <li>全国大学生计算机系统能力大赛<a href="https://compiler.educg.net/">编译系统设计赛网站</a>：含参赛作品开源地址链接</li>
+                    <li><a href="http://staff.ustc.edu.cn/~yuzhang/compiler/issues/callframe.pdf">gcc对整型和实型参数传递的处理特点分析示例</a></li>
+                    <li><a href="http://staff.ustc.edu.cn/~yuzhang/compiler/issues/stackOverflow.pdf">栈溢出问答示例</a></li>
+                </ul>
+            </li>
+            <li><strong>标准和规范</strong>
+                <ul>
+                    <li><a href="http://www.open-std.org/jtc1/sc22/wg14/">C official home</a>（C11-<a href="http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf">WG14 N1570</a>）, <a href="http://www.open-std.org/jtc1/sc22/wg21/">C++ official home</a>, <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines">C++ Core Guidelines</a></li>
+                    <li><a href="http://www.dwarfstd.org/">DWARF</a>: <a href="http://www.dwarfstd.org/doc/DWARF5.pdf">Debugging Information Format Version 5</a></li>
+                    <li><a href="https://docs.oracle.com/javase/specs/">Java Language/Virtual Machine Specification</a></li>
+                    <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/">C# Reference</a>, <a href="https://docs.microsoft.com/en-us/dotnet/fundamentals/">dotnet</a></li>
+                    <li>JavaScript: <a href="https://www.ecma-international.org/publications/standards/Ecma-262.htm">ECMA-262</a>, <a href="https://v8.dev/">V8</a>, <a href="https://mozilla-spidermonkey.github.io/">SpiderMonkey</a></li>
+                    <li><a href="https://www.python.org/">Python</a></li>
+                    <li>Intel 64 and IA32: <a href="https://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf">Intel64 and IA-32 Architectures Software Developer’s Manual</a>, A nice and short guide for <a href="http://flint.cs.yale.edu/cs421/papers/x86-asm/asm.html">x86 Assembly</a></li>
+                    <li>AMD64: <a href="http://developer.amd.com/documentation/guides/pages/default.aspx">AMD Developer Guides and Manuals</a>: <a href="http://support.amd.com/us/Processor_TechDocs/24592.pdf">V1</a>: Application Programming, <a href="http://support.amd.com/us/Processor_TechDocs/24592.pdf">V2</a>: System Programming, <a href="http://support.amd.com/us/Processor_TechDocs/24594.pdf">V3</a>: General Purpose and System Instructions, <a href="http://support.amd.com/us/Processor_TechDocs/26568.pdf">V4</a>: 128-bit and 256 bit media instructions, <a href="http://support.amd.com/us/Processor_TechDocs/26569.pdf">V5</a>: 64-Bit Media and x87 Floating-Point Instructions.</li>
+                    <li>MIPS: <a href="http://pages.cs.wisc.edu/~larus/spim.html">SPIM</a>, See MIPS Run, MIPS32/64 Archtecture for Programmers</li>
+                    <li>ARM: <a href="https://developer.arm.com/documentation/">doc</a>, <a href="https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/useful-assembler-directives-and-macros-for-the-gnu-assembler">Useful assembler directives and macros for the GNU assembler</a></li>
+                </ul>
+            </li>
             <li><strong>工具与报告</strong>
                 <ul>
-                    <li>Linux、Git、Markdown、Makefile、 GCC、Clang/LLVM等</li>
                     <li><a href="https://lug.ustc.edu.cn/wiki/lug/events/">Linux 101 @ lug</a></li>
                     <li><a href="https://ftp.lug.ustc.edu.cn/weekly_party/2014.10.12_git/Git%20%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.pdf">Git使用心得</a></li>
                     <li><a href="https://docs.gitlab.com/ee/ssh/">GitLab and SSH Keys</a></li>
